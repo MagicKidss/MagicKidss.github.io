@@ -1,0 +1,135 @@
+
+
+
+.contenedor{
+    width: 100%;
+    margin: 0;
+}
+
+.nav_bar{
+    width:100%;
+}
+
+@media screen and (min-width:1700px){
+    .nav-link{
+        font-size: 30px;
+    }
+    
+}
+
+.subheader{
+    background-image: url(Imagenes/fondo.jpg); 
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 230%;
+    font-family: cursive;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:619px){
+    .nav-link{
+        font-size: 8px;
+    }
+}
+
+
+
+
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width:1200px){
+    .titulo{
+        font-size: 50px;
+    }
+}
+
+.productos{
+    margin: 25px;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.sub_titulo{
+    margin-bottom: 5%;
+
+}
+
+
+.apartado_juego{
+    margin: 8px;
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+.imagen_juego{
+    width: 100%;
+    height: 100%;
+    margin:0 auto; 
+    display: block;
+    border-radius: 5px;
+}
+
+.imagen_juego_pequenia{
+    width: 30%;
+    height: 30%;
+    display: block;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.titulo_juego{
+    margin-top:20px ;
+    width:  100%;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: rgb(53, 53, 53);
+}
+
+.precio_juego{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    color: rgb(0, 153, 255);
+}
+
+.descripcion_juego{
+    font-size: 13px;
+    color: rgb(73, 73, 73);
+    margin-bottom: 25px;
+}
+
+.boton_agenda{
+    background-color: rgb(109, 218, 0);
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 130px;
+    border: 0;
+    font-weight: bolder;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.instagram{
+    margin: 2%;
+    margin-left: 3%;
+    width: 5%;
+}
+
+
+
+
+
+
